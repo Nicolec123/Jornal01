@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link href="/public/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+  <link rel="stylesheet" href="/pages/single.html">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <h6 class="menutitule"><u>menu</u></h6>
+
+      <section class="login">
+  <div class="iconelogin">
+        <a href="/pages/login.html" target="_blank"><i class="fas fa-user"></i></a>
+      <a href="/pages/login.html"></a><p class="loginM">Login</p>
+      </section>
+      <section class="assine">
+      <a href="/pages/Assine.html"><p class="assineM"><u>Assine</u></a></p>
+        </section>
+      <div class="logo">
+        <h2><span style="font-weight: lighter">Dani</span><b>News</b></h2>
+      </div>
+      <nav>
+        <ul class="dropdown">
+          <li><a href="/pages/home.html"><u>Home</u></a></li>
+          <li><a href="/pages/Sobre.html"><u>Sobre</u></a></li>
+          <li><a href="/pages/Contatos.html"><u>Contatos</u></a></li>
+        </ul>
+      </nav>
+      <div class="form-busca">
+        <form>
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input name="busca" type="text" placeholder="Busca..." />
+        </form>
+      </div>
+    </div>
+  </header>
+  
+  <nav id="side-menu" class="side-menu">
+    <button class="close-menu" onclick="toggleMenu()"><i class="fa fa-times"></i></button>
+
+<section class="login">
+  <div class="iconelogin">
+        <a href="/pages/login.html" target="_blank"><i class="fas fa-user"></i></a>
+        <p class="loginM"><a href="/pages/login.html"></a>Login</p>
+</div>
+<div class="assine"></div>
+</section>
+
+    <ul>
+       <p class="line1"><a href="#"></a></p>
+      <li><a href="/pages/home.html">Economia</a></li>
+      <li><a href="/pages/Sobre.html">Politica</a></li>
+      <li><a href="/pages/Contatos.html">Tecnologia</a></li>
+      <li><a href="/pages/Contatos.html">Entreterimento</a></li>
+      <li><a href="/pages/Contatos.html">Esporte</a></li>
+      <li><a href="/pages/Contatos.html">Saúde</a></li>
+      <li><a href="/pages/Contatos.html">Educação</a></li>
+      <li><a href="/pages/Contatos.html">Ciência</a></li>
+      <li><a href="/pages/Contatos.html">Ambiente</a></li>
+      <li><a href="/pages/Contatos.html">Cotidiano</a></li>
+      <li><a href="/pages/Contatos.html">Fotografia</a></li>
+      <li><a href="/pages/Contatos.html">Colunas e Blogs</a></li>
+      <li><a href="/pages/Contatos.html">Opnião</a></li>
+      <li><a href="/pages/Contatos.html">Turismo</a></li>
+       <p class="line"><a href="#"></a></p>
+      <li id="funcionario"><a href="/pages/Acess_restrict.html">Acesso Restrito</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="noticia-destaque">
+  <div class="center">
+<div class="flex-container ">
+    <div class="carrossel">
+      <div class="img-destaque">
+        <div class="overlay-destaque"></div>
+        <div class="title-destaque-descricao">
+          <h2>Quer dicas de como economizar nas férias?</h2>
+          <p>Especialista economia Dani Silva: "Um hábito meu que faço antes de viajar para outras cidades ou regiões é sempre procurar os pontos onde estão localizados os restaurantes populares como os da Prefeitura de São Paulo: BOM PRATO onde o almoço custa em média 1 real por pessoa"</p>
+          <a href="/pages/single.html">Saiba mais!</a>
+        </div>
+        <img src="/public/images/MASP.jpg" />
+      </div>
+      
+      <div class="img-destaque">
+        <div class="overlay-destaque2"></div>
+        <div class="title-destaque-descricao2">
+          <h2>Esporte para a saúde e a promoção da diversidade</h2>
+          <p>Esportes são atividades que promovem a prática de atividades físicas e a saúde, como exercícios, treinamentos e atividades de lazer. Esportes podem ajudar a reduzir o stress, aumentar a resistência e melhorar a qualidade de vida.</p>
+          <a href="/pages/single.html">Saiba mais!</a>
+        </div>
+        <img src="/public/images/pexels-pixabay-209956.jpg" alt="futebol" />
+      </div>
+      
+      <div class="img-destaque">
+        <div class="overlay-destaque3"></div>
+        <div class="title-destaque-descricao3">
+          <h2>Conhecimento e a capacidade de aprender</h2>
+          <p>Educação é a habilidade de aprender, de ensinar e de aplicar conhecimentos. A escolaridade é essencial para o desenvolvimento do conhecimento e a capacidade de aprender, bem como para a melhoria da saúde e da vida.</p>
+          <a href="/pages/single.html">Saiba mais!</a>
+        </div>
+        <img src="/public/images/pexels-pixabay-159844.jpg" alt="educação" />
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+   <section class="outras-noticias">
+  <div class="title-outras-noticias">
+    <h2>Últimas Notícias</h2>
+    <br /><br />
+    <div class="center">
+      <div class="ultimas">
+        <div class="flex-ultimas">
+          <div class="box-ultima-single">
+            <img src="/public/images/MASP.jpg" alt="masp" />
+            <div class="conteudo-noticia-single">
+              <h3>Férias em Sampa!</h3>
+              <h2>Como economizar em São Paulo</h2>
+              <p>Economizar em São Paulo pode ser mais fácil do que parece. Aproveite os mercados municipais para comprar alimentos frescos e baratos, utilize o transporte público para reduzir gastos com deslocamento e explore atividades culturais gratuitas. Pequenas mudanças no dia a dia podem resultar em grandes economias!</p>
+              <a href="/pages/single.html">Saiba mais!</a>
+            </div>
+          </div>
+          
+          <div class="box-ultima-single2">
+            <img src="/public/images/MASP.jpg" alt="masp" />
+            <div class="conteudo-noticia-single2">
+              <h3>Férias em Sampa!</h3>
+              <h2>Como economizar em São Paulo</h2>
+              <p>Economizar em São Paulo pode ser mais fácil do que parece. Aproveite os mercados municipais para comprar alimentos frescos e baratos, utilize o transporte público para reduzir gastos com deslocamento e explore atividades culturais gratuitas. Pequenas mudanças no dia a dia podem resultar em grandes economias!</p>
+              <a href="/pages/single.html">Saiba mais!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navegacao">
+  <a href="#" id="prev">&#10094;</a>
+  <a href="#" id="next">&#10095;</a>
+</div>
+    <!-- Seção "Mais Lidas" movida para baixo -->
+    <div class="center">
+      <div class="mais-lidas">
+        <h3>Mais Lidas</h3>
+        <div class="mais-lidas-noticias">
+          <div class="mais-lidas-noticias-single">
+            <img src="/public/images/pexels-wdnet-1002703.jpg" alt="Natureza" />
+            <div class="texto-mais-lidas-singlle">
+              <h4>Natureza: A importância da conservação</h4>
+              <p>A natureza é um recurso imutável, que não pode ser alterado ou destruído. Conservá-la é essencial para a biodiversidade e a preservação do meio ambiente.</p>
+            </div>
+          </div>
+
+          <div class="mais-lidas-noticias-single">
+            <img src="/public/images/pexels-pixabay-209956.jpg" alt="Esportes" />
+            <div class="texto-mais-lidas-singlle">
+              <h4>Esportes: A importância do esporte para a saúde e a promoção da diversidade</h4>
+              <p>Esportes são atividades que promovem a prática de atividades físicas e a saúde, como exercícios, treinamentos e atividades de lazer. Esportes podem ajudar a reduzir o stress, aumentar a resistência e melhorar a qualidade de vida.</p>
+            </div>
+          </div>
+
+          <div class="mais-lidas-noticias-single">
+            <img src="/public/images/pexels-pixabay-159844.jpg" alt="Educação" />
+            <div class="texto-mais-lidas-singlle">
+              <h4>Educação: A importância do conhecimento e a capacidade de aprender</h4>
+              <p>Educação é a habilidade de aprender, de ensinar e de aplicar conhecimentos. A escolaridade é essencial para o desenvolvimento do conhecimento e a capacidade de aprender, bem como para a melhoria da saúde e da vida.</p>
+            </div>
+          </div>
+
+          <div class="mais-lidas-noticias-single">
+            <img src="/public/images/pexels-lum3n-44775-1028599.jpg" alt="Saúde" />
+            <div class="texto-mais-lidas-singlle">
+              <h4>Saúde: A importância do conhecimento e a capacidade de prevenir e curar</h4>
+              <p>Saúde é a condição física e mental que permite que um indivíduo viva e se reproduza. A saúde é essencial para o desenvolvimento do conhecimento e a capacidade de prevenir e curar, bem como para a melhoria da vida.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </section>
+    <footer>
+      <p class="text-inferior0">© Nicole Company LTDA</p>
+      <p class="text-inferior">Todos os direitos reservados</p>
+      <p class="text-inferior2">2024 - DaniNews</p>
+      <p class="privacidade"><a href="#">Política de Privacidade</a></p>
+      <p class="contato"><a href="#">Contato</a></p>
+      <p class="seguir"><a href="#">Curta, siga e compartilhe!</a></p>
+     <!--<img src="/public/images/MASP.jpg" alt="logoEmpresa" class="logoEmpresa" />--> 
+      <p class="line"><a href="#"></a></p>
+      <p class="line2"><a href="#"></a></p>
+      <p class="ajuda"><a href="#">Ajuda</a></p>
+      <p class="email"><a href="mailto:danielefloripa42@gmail.com">Suporte</a></p>
+      <p class="assinante"><a href="mailto:danielefloripa42@gmail.com">Atendimento ao assinante</a></p>
+      <h3>Centrais de Atendimento:</h3>
+      <div class="flex-phone">
+        <div class="phone-item"><a href="#"><i class="fas fa-phone"></i></a><p class="number1">0800 108 0 108</p></div>
+        <div class="phone-item"><a href="#"><i class="fas fa-phone"></i></a><p class="number1">(11) 98471 6068</p></div>
+        <div class="phone-item"><a href="#"><i class="fas fa-phone"></i></a><p class="number1">(11) 98471 6068</p></div>
+      </div>
+      <h3 class="endFisc0">Nosso endereço:</h3>
+      <p class="endFisic"><a href="https://www.google.com.br/maps/place/R.+das+Casuarinas,+127-53+-+Jardim+Oriental,+S%C3%A3o+Paulo+-+SP,+04321-100/@-23.6449703,-46.6464594,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x94ce5add5cb1ea19:0xaf1809e44c2de978!2sJabaquara!8m2!3d-23.6461957!4d-46.6407825!16s%2Fm%2F0g9wpc0!3m5!1s0x94ce5ae852600ac9:0xfe1bd64ac23d7fa6!8m2!3d-23.6449752!4d-46.6438845!16s%2Fg%2F11r_rtfl3s?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"><i class="fas fa-map-marker-alt"></i></a></p>
+      <h5 class="end"><a href="https://www.google.com.br/maps/place/R.+das+Casuarinas,+127-53+-+Jardim+Oriental,+S%C3%A3o+Paulo+-+SP,+04321-100/@-23.6449703,-46.6464594,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x94ce5add5cb1ea19:0xaf1809e44c2de978!2sJabaquara!8m2!3d-23.6461957!4d-46.6407825!16s%2Fm%2F0g9wpc0!3m5!1s0x94ce5ae852600ac9:0xfe1bd64ac23d7fa6!8m2!3d-23.6449752!4d-46.6438845!16s%2Fg%2F11r_rtfl3s?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">R. das Casuarinas, 127-53 - Jardim Oriental,<br />São Paulo - SP, 04321-100</a></h5>
+      <p class="contato-whatsapp"><a href="https://api.whatsapp.com/send?phone=5511951462762" target="_blank"><i class="fab fa-whatsapp"></i> (11) 95146-2762</a></p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nicole-cruz-a89973202/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Nicolec123" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('side-menu');
+      menu.classList.toggle('open');
+    }
+  </script>
+    <script src="/public/home.js"></script>
+    <script src="/public/carrossel.js"></script>
+
+</body>
+</html>
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 8px 0;
+  background-color: #0aacdc;
+}
+/* Menu lateral */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 220px;
+  height: 100%;
+  background-color: #ecebeb;
+  color: #0f0f0f;
+  transition: left 0.3s ease;
+  padding-top: 40px;
+  z-index: 1000;
+  overflow-y: auto; /* Adiciona scroll vertical se necessário */
+}
+
+.menutitule {
+  font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #ecebeb; /* Cor do texto */
+  text-decoration: underline; /* Sublinhado */
+  margin-left: 60px; /* Espaço à esquerda */
+  margin-top: -0.2%; /* Define a cor do texto */
+}
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+.side-menu ul li a {
+  color: #1c1c1c;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.side-menu ul li a:hover {
+  background-color: #575757;
+}
+
+/* Botão de menu */
+.menu-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white !important;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Menu lateral */
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+.side-menu ul li a {
+  color: #1a1919;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.side-menu ul li a:hover {
+  background-color: #5c9cdc;
+}
+
+/* Botão de fechar o menu */
+.close-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #5c9cdc;
+  cursor: pointer;
+}
+
+.fa-user {
+  margin-left: 35px;
+  font-size: 25px;
+  color: #008bb4;
+  margin-bottom: 2%;
+}
+
+.loginM {
+  margin-left: 65px;
+  color: #fbf9f9;
+  margin-top: -30%;
+  cursor: pointer;
+}
+.assineM {
+  margin-left: 75px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+a:-webkit-any-link {
+  color: #f73022;
+}
+.line3 u a {
+  border-bottom: 1px solid #3c3c3c;
+  padding-bottom: 0.2px;
+  width: 200px;
+  margin-left: 400px;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+/* Remove o estilo padrão da lista */
+.dropdown {
+  list-style-type: none; /* Remove os marcadores */
+  padding: 0; /* Remove o preenchimento interno padrão */
+  margin: 20px 0; /* Remove a margem padrão */
+  display: flex; /* Alinha os itens horizontalmente */
+  margin-top: 10%; /* Define a cor do texto */
+}
+
+/* Estilos para os itens da lista */
+.dropdown li {
+  margin: 0 10px; /* Adiciona espaço entre os itens */
+}
+
+/* Estilos para os links */
+.dropdown li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: white;
+  margin-top: 0.2%; /* Define a cor do texto */
+}
+
+.center {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  width: 50%;
+  margin-top: 0.4%;
+  margin-left: -220;
+  margin-right: 20%;
+}
+
+.logo h2 {
+  color: white;
+  margin-left: 50%;
+  font-size: 32px;
+}
+
+.form-busca {
+  width: 50%;
+  text-align: right;
+  margin-top: 0.3%;
+  margin-right: 4%;
+}
+
+.form-busca form {
+  display: inline-block;
+  max-width: 200px;
+  position: relative;
+}
+
+.form-busca i {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  color: white;
+  font-size: 20px;
+}
+
+.form-busca input {
+  height: 40px;
+  width: 100%;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  background-color: #008bb4;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+
+.title-destaque-descricao h2 {
+  font-size: 64;
+  margin: 20px 0;
+}
+
+.title-destaque-descricao p {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.title-destaque-descricao a {
+  color: #0aacdc;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+section.noticia-destaque {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+section.noticia-destaque > .center {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 120% !important; /* Ajusta para 100% da largura do container pai */
+  overflow: hidden;
+  margin-top: 2%;
+}
+.carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 120% !important; /* O carrossel ocupa 60% do espaço total */
+}
+
+.carrossel img {
+  width: 100%;
+  flex: 0 0 100%;
+}
+
+.img-destaque {
+  flex: 1 0 100%; /* Cada imagem ocupa 100% do espaço */
+  position: relative;
+}
+
+.img-destaque img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.title-destaque-descricao {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  max-width: 600px;
+  color: white;
+  z-index: 2;
+}
+
+.title-destaque-descricao2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  max-width: 600px;
+  color: white;
+  z-index: 2;
+}
+.title-destaque-descricao2 h2 {
+}
+
+.title-destaque-descricao3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  max-width: 600px;
+  color: white;
+  z-index: 2;
+}
+
+.overlay-destaque {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.overlay-destaque2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.overlay-destaque3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+/* Estilos para setas de navegação */
+.navegacao {
+  position: absolute;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 60% !important;
+  z-index: 3;
+  margin-left: 15%;
+}
+
+.navegacao a {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px;
+  margin-top: 50%;
+}
+
+section.outras-noticias {
+  background-color: #eaeaea;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+section.outras-noticias h2 {
+  font-size: 54px;
+}
+
+.ultimas {
+  width: 40%;
+  padding: 0 10px;
+  display: flex;
+}
+
+.box-ultima-single {
+  text-align: left;
+  width: 35%;
+  margin-right: 2%;
+  background-color: white;
+  padding-bottom: 20px;
+  height: 130vh !important;
+  border-radius: 10px !important;
+}
+
+.box-ultima-single img {
+  width: 100%;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.box-ultima-single h3 {
+  font-size: 16px;
+  color: #008bb4;
+  margin: 20px 0;
+}
+.box-ultima-single h2 {
+  color: #303336;
+  font-size: 22px !important; /*nunca tire isso pois o pai está em 54px*/
+}
+.box-ultima-single p {
+  color: #788591;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.box-ultima-single a {
+  color: #008bb4;
+  display: block;
+  width: 130px;
+  height: 76px;
+  text-decoration: none;
+  border-radius: 10px;
+  line-height: 76px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+.conteudo-noticia-single {
+  /*div criada para poder usar o padding apenas nas letras e na imagem não.*/
+  padding: 20px;
+}
+
+.box-ultima-single2 {
+  text-align: left;
+  width: 48%;
+  margin-right: 2%;
+  background-color: white;
+  padding-bottom: 20px;
+  height: 130vh !important;
+  border-radius: 10px !important;
+}
+
+.box-ultima-single2 img {
+  width: 100%;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.box-ultima-single2 h3 {
+  font-size: 16px;
+  color: #008bb4;
+  margin: 20px 0;
+}
+.box-ultima-single2 h2 {
+  color: #303336;
+  font-size: 22px !important; /*nunca tire isso pois o pai está em 54px*/
+}
+.box-ultima-single2 p {
+  color: #788591;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.box-ultima-single2 a {
+  color: #008bb4;
+  display: block;
+  width: 130px;
+  height: 76px;
+  text-decoration: none;
+  border-radius: 10px;
+  line-height: 76px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+.conteudo-noticia-single2 {
+  /*div criada para poder usar o padding apenas nas letras e na imagem não.*/
+  padding: 20px;
+}
+
+/*mais lidas abaixo*/
+.mais-lidas {
+  top: 1255px;
+  left: 1273px;
+  width: 300px;
+  height: 1065px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.mais-lidas > h3 {
+  background-color: #008bb4;
+  color: white;
+  text-align: center;
+  padding: 10px 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.mais-lidas-noticias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+.mais-lidas-noticias-single {
+  width: 195px;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.mais-lidas-noticias-single:hover {
+  transform: scale(1.05);
+}
+
+.mais-lidas-noticias-single img {
+  width: 100%;
+  height: 189px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.texto-mais-lidas-singlle {
+  background: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.texto-mais-lidas-singlle h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #40be65 !important;
+}
+
+.texto-mais-lidas-singlle p {
+  font-size: 12px;
+  margin: 0;
+  color: #7b8591;
+}
+
+/* Estilo base do footer */
+footer {
+  background-color: #008bb4;
+  padding: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: auto;
+}
+
+.text-inferior {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px !important;
+  line-height: 0.2px;
+}
+
+.text-inferior2 {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px !important;
+}
+
+.text-inferior0 {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px !important;
+  margin-bottom: -5px;
+}
+
+.privacidade a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 8px;
+  background-color: #3bb42b;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  top: 50px;
+}
+
+.privacidade a:hover {
+  background-color: #65e48b;
+}
+
+.contato a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: -77% !important;
+  position: relative;
+  top: -9px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.seguir a {
+  color: #f0f0f0;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  margin-left: -70%;
+  position: relative;
+  top: -135px;
+}
+
+.logoEmpresa {
+  margin-left: 190px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid #cecece;
+  border-radius: 50%;
+  top: 1660px;
+}
+
+.line {
+  border-bottom: 1px solid #c7bfbf;
+  padding-bottom: 0.2px;
+  width: 200px;
+  margin-left: 400px;
+}
+
+.line2 {
+  border-bottom: 1px solid #c7bfbf;
+  padding-bottom: 0.2px;
+  width: 200px;
+  margin-left: 880px;
+}
+
+.ajuda {
+  position: relative;
+  top: -150px;
+}
+
+.ajuda a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 70% !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.email a {
+  color: #fff;
+  margin-left: 70% !important;
+  top: -130px !important;
+  margin-bottom: 4%;
+  position: relative;
+}
+
+.assinante a {
+  color: #fff;
+  margin-left: 77% !important;
+  top: -120px !important;
+  position: relative;
+}
+
+.endFisc0 {
+  color: #fff;
+  margin-left: 75% !important;
+  top: -50px !important;
+  position: relative;
+}
+
+.endFisic i {
+  color: #f32617;
+  margin-left: 51% !important;
+  top: -50px !important;
+  position: relative;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.end {
+  color: #fff;
+  margin-left: 75% !important;
+  top: -70px !important;
+  position: relative;
+  cursor: pointer;
+}
+
+.contato-whatsapp a {
+  color: #eef3f0;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #3bb42b;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  margin-left: -76% !important;
+  top: -180px;
+}
+
+.flex-phone {
+  margin-top: 2% !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 670px;
+}
+
+.phone-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone-item a {
+  color: #3b5998;
+  font-size: 20px;
+}
+
+.number1 {
+  color: #f0f0f0;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #555;
+  position: relative;
+  top: -300px;
+  left: -38%;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+.fa-facebook {
+  color: #eef3f0;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #1877f2;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+.fa-linkedin {
+  color: #eef3f0;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #1877f2;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+.fa-instagram {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #fc01d8;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+.fa-github {
+  color: #fcfcfc;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #080808;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+/*abaixo tudo que é responsivo*/
+
+/* Estilos para telas menores que 1200px */
+@media screen and (max-width: 1200px) {
+  .fa-user {
+    display: none;
+  }
+
+  .loginM {
+    display: none;
+  }
+
+  .logo {
+    width: 50%;
+  }
+  .logo h2 {
+    margin-left: 37%;
+    margin-top: 0.2%;
+    margin-bottom: 2%;
+  }
+}
+
+.menutitule {
+  text-decoration: none; /* Sublinhado */
+  margin-left: 57px; /* Espaço à esquerda */
+  margin-top: 0%; /* Define a cor do texto */
+}
+
+.side-menu {
+  height: 110vh;
+}
+
+.assineM {
+  margin-left: 50px;
+  margin-top: 1%;
+}
+
+a:-webkit-any-link {
+  color: #f0ebeb;
+}
+
+.dropdown {
+  margin: 20px 50px 20px -80px; /* Remove a margem padrão */
+  gap: 3px;
+}
+/*acima fim do header*/
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 120% !important; /* Ajusta para 100% da largura do container pai */
+  overflow: hidden;
+  margin-top: 2%;
+}
+.carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 120% !important; /* O carrossel ocupa 60% do espaço total */
+}
+
+.carrossel img {
+  width: 100%;
+  flex: 0 0 100%;
+}
+
+.img-destaque {
+  flex: 1 0 100%; /* Cada imagem ocupa 100% do espaço */
+  position: relative;
+}
+
+.img-destaque img {
+  width: 100%;
+  border-radius: 20px;
+}
+.title-destaque-descricao {
+  text-align: justify;
+  padding: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.title-destaque-descricao h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.title-destaque-descricao p {
+  font-weight: lighter;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+.title-destaque-descricao2 {
+  text-align: justify;
+  padding: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.title-destaque-descricao2 h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.title-destaque-descricao2 p {
+  font-weight: lighter;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+.title-destaque-descricao3 {
+  text-align: justify;
+  padding: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.title-destaque-descricao3 h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.title-destaque-descricao3 p {
+  font-weight: lighter;
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+.overlay-destaque {
+  width: 100%;
+}
+
+.overlay-destaque2 {
+  width: 100%;
+}
+.overlay-destaque3 {
+  width: 100%;
+}
+
+/* Estilos para setas de navegação */
+.navegacao {
+  top: 22%;
+  width: 90%;
+  left: 4.5%;
+  right: 0;
+}
+.section.noticias {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+/* Seção para as últimas notícias */
+ultimas {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.flex-ultimas {
+  margin-left: 2%;
+  display: flex;
+  width: 100%;
+  gap: 20px; /* Espaço entre os itens */
+  justify-content: space-between;
+}
+
+.box-ultima-single {
+  left: -10px;
+  width: 80%;
+  flex: 1;
+  text-align: left;
+  background-color: white;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  height: 115vh;
+  margin-bottom: 8%;
+}
+
+.box-ultima-single img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box-ultima-single h3 {
+  font-size: 19px;
+  color: #008bb4;
+  margin: 20px 0;
+}
+.box-ultima-single h2 {
+  color: #303336;
+  font-size: 25px !important; /*nunca tire isso pois o pai está em 54px*/
+}
+.box-ultima-single p {
+  color: #788591;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+.box-ultima-single a {
+  color: #008bb4;
+  display: block;
+  width: 400px;
+  height: 76px;
+  text-decoration: none;
+  border-radius: 10px;
+  line-height: 76px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+
+.box-ultima-single2 {
+  width: 80%;
+  flex: 1;
+  text-align: left;
+  background-color: white;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  height: 115vh;
+  margin-bottom: 8%;
+}
+
+.box-ultima-single2 img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box-ultima-single2 h3 {
+  font-size: 19px;
+  color: #008bb4;
+  margin: 20px 0;
+}
+.box-ultima-single2 h2 {
+  color: #303336;
+  font-size: 25px !important; /*nunca tire isso pois o pai está em 54px*/
+}
+.box-ultima-single2 p {
+  color: #788591;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+.box-ultima-single2 a {
+  color: #008bb4;
+  display: block;
+  width: 400px;
+  height: 76px;
+  text-decoration: none;
+  border-radius: 10px;
+  line-height: 76px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+/* Seção para as mais lidas */
+.mais-lidas {
+  height: 135vh;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mais-lidas h3 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mais-lidas-noticias {
+  display: grid;
+  grid-template-columns: repeat(2, 1.5fr); /* Aumenta o tamanho das colunas */
+
+  grid-gap: 10px; /* Espaço entre as notícias */
+}
+
+.mais-lidas-noticias-single {
+  width: 400px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.mais-lidas-noticias-single:hover {
+  transform: scale(1.05);
+}
+
+.mais-lidas-noticias-single img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.texto-mais-lidas-singlle {
+  padding: 15px;
+}
+
+.texto-mais-lidas-singlle h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #40be65;
+}
+
+.texto-mais-lidas-singlle p {
+  font-size: 16px;
+  color: #7b8591;
+}
+
+/*footer*/
+
+footer {
+  background-color: #008bb4;
+  padding: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: auto;
+}
+
+.text-inferior {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px !important;
+  line-height: 0.2px;
+}
+
+.text-inferior2 {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px !important;
+}
+
+.text-inferior0 {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px !important;
+  margin-bottom: -5px;
+}
+
+.privacidade a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 8px;
+  background-color: #3bb42b;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  top: 50px;
+}
+
+.privacidade a:hover {
+  background-color: #65e48b;
+}
+
+.contato a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: -77% !important;
+  position: relative;
+  top: -9px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.seguir a {
+  color: #f0f0f0;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  margin-left: -65%;
+  position: relative;
+  top: -135px;
+}
+
+.logoEmpresa {
+  margin-left: 190px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid #cecece;
+  border-radius: 50%;
+  top: 1660px;
+}
+
+.line {
+  border-bottom: 1px solid #c7bfbf;
+  padding-bottom: 0.2px;
+  width: 200px;
+  margin-left: 150px;
+}
+
+.line2 {
+  border-bottom: 1px solid #c7bfbf;
+  padding-bottom: 0.2px;
+  width: 200px;
+  margin-left: 600px;
+}
+
+.ajuda {
+  position: relative;
+  top: -150px;
+}
+
+.ajuda a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 70% !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.email a {
+  color: #fff;
+  margin-left: 70% !important;
+  top: -130px !important;
+  margin-bottom: 4%;
+  position: relative;
+}
+
+.assinante a {
+  color: #fff;
+  margin-left: 77% !important;
+  top: -120px !important;
+  position: relative;
+}
+
+.endFisc0 {
+  color: #fff;
+  margin-left: 75% !important;
+  top: -130px !important;
+  position: relative;
+}
+
+.endFisic i {
+  color: #f32617;
+  margin-left: 47% !important;
+  top: -115px !important;
+  position: relative;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.end {
+  color: #fff;
+  margin-left: 75% !important;
+  top: -130px !important;
+  position: relative;
+  cursor: pointer;
+}
+
+.contato-whatsapp a {
+  color: #eef3f0;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #3bb42b;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  margin-left: -76% !important;
+  top: -190px;
+}
+
+.flex-phone {
+  margin-top: 2% !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 400px;
+}
+
+.phone-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone-item a {
+  color: #3b5998;
+  font-size: 20px;
+}
+
+.number1 {
+  color: #f0f0f0;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #555;
+  position: relative;
+  top: -300px;
+  left: -38%;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+.fa-facebook {
+  color: #eef3f0;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #1877f2;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+.fa-linkedin {
+  color: #eef3f0;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #1877f2;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+.fa-instagram {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #fc01d8;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+.fa-github {
+  color: #fcfcfc;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #080808;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #363535;
+}
+
+/* Estilos para telas menores que 480px */
+@media screen and (max-width: 480px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Place the first <script> tag in your HTML's <head> -->
+<script src="https://cdn.tiny.cloud/1/u6aqbjne4pg4cxef3u0gmgbaqg3vs4i738qf4quone3lxwra/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+<!-- Place the following <script> and <textarea> tags your HTML's <body> -->
+<script>
+  tinymce.init({
+    selector: 'textarea',
+    plugins: [
+      // Core editing features
+      'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
+      // Your account includes a free trial of TinyMCE premium features
+      // Try the most popular premium features until Oct 3, 2024:
+      'checklist', 'mediaembed', 'casechange', 'export', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown',
+    ],
+    toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+    tinycomments_mode: 'embedded',
+    tinycomments_author: 'Author name',
+    mergetags_list: [
+      { value: 'First.Name', title: 'First Name' },
+      { value: 'Email', title: 'Email' },
+    ],
+    ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
+  });
+</script>
+<textarea>
+  Welcome to TinyMCE!
+</textarea>
+
+
+
+chave api: u6aqbjne4pg4cxef3u0gmgbaqg3vs4i738qf4quone3lxwra- do word;
+
+
+Seu token de API
+mxr7KOod5EKbK3_8TuK0frOPz55Saar4_lPkO-fi6uj7MNLp;- api de noticias

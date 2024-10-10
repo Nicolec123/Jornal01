@@ -1,0 +1,85 @@
+/* estilo.css */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.publicacao {
+    margin-bottom: 40px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.titulo-artigo {
+    font-size: 24px;
+    color: #333;
+}
+.categoria {
+    font-size: 14px;
+    color: #666;
+}
+.imagem-artigo {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.conteudo-artigo {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+.data-publicacao {
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Responsividade */
+@media (max-width: 600px) {
+    .titulo-artigo {
+        font-size: 20px;
+    }
+    .conteudo-artigo {
+        font-size: 14px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

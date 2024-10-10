@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header {
+  padding: 14px;
+  padding: 8px 0;
+  background-color: #0aacdc;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.dropdown0 {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o preenchimento interno padrão */
+    margin: 20px 0; /* Remove a margem padrão */
+    display: flex; /* Alinha os itens horizontalmente */
+
+}
+
+/* Estilos para os itens da lista */
+.dropdown0 li {
+    margin: 0 10px; /* Adiciona espaço entre os itens */
+}
+
+/* Estilos para os links */
+.dropdown0 li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Define a cor do texto */
+}
+.container-tudo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+/* Remove o estilo padrão da lista */
+#dropbtn{
+    background-color: #196abb;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    text-align: center;
+    margin-top: 900px;
+    border-radius: 5px;
+    right: 200px; /*ajustar isso*/
+
+}
+
+.dropdown{
+    min-width: 160px;
+}
+
+#dropbtn:hover{
+    background-color: #102845;
+}
+
+.center {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  max-width: max-content;
+  margin-left: 20%;
+  margin-top: 0.7%;
+}
+
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 2px;
+    padding: 20px;
+    font-size: 30px;
+    align-items: center;
+    gap: 10PX;
+  }
+
+.container-perfil{
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    width: 30%;
+    background: #c7c5c4;
+    border-radius: 6px;
+    padding: 0px 60px 140px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height:98vh;
+
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-bottom: 2%;
+    
+}
+
+.container-dados-sistema{
+    background-color: #f1f1f1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    height: 0;
+    width: 30%;
+    background: #c7c5c4;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height:98vh;
+    margin-top: 2%;
+    /*margin-left: 20%;*/
+    margin-bottom: 2%;
+}
+.dados-pessoais {
+    text-align: left;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-bottom: 3%;
+
+}
+.dados-pessoais h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #1e1e1e;
+    text-transform: uppercase;
+}
+
+.dados-pessoais h4{
+    font-size: 20px;
+    color: #1e1e1e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.dados-pessoais p{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 19px;  
+}
+
+.fa-edit{
+    color: #257cbe;
+    font-size: 18px;
+    position: relative;
+}
+
+#edit-dp-1 i {
+    color: red;
+   
+}
+
+#edit-dp-2 i {
+    color: blue;
+}
+
+#edit-dp-3 i {
+    color: green;
+    
+}
+
+
+
+
+
+
+.img{
+    height: auto;
+    margin-bottom: 10px;
+    position: relative;
+    align-self: center;
+    margin-top: 200px;
+}
+
+
+
+.contatos {
+    text-align: left;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding: 15px 1px 3px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-bottom: 3%;
+    float: left;
+    position: static;
+
+}
+
+.contatos p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+
+.endereço{
+    text-align: left;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding: 15px 1px 3px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-bottom: 3%;
+    float: left;
+    position: static;
+}
+
+.endereço p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+.dados-pessoais {
+    text-align: left;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-bottom: 3%;
+
+}
+.container-dados-sistema h1{
+    top: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #e82020;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.cargos-departamentos h3{
+    font-size: 20px;
+    color: #1e1e1e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.dados-sistemicos p{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 19px;  
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #1e1e1e;
+
+}
+
+
+
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+  .logoEmpresa {
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    top: 0;
+  }
+
+  .social-icons a,
+  .privacidade a,
+  .contato a,
+  .seguir a,
+  .ajuda a,
+  .email a,
+  .assinante a,
+  .endFisc0,
+  .endFisic i,
+  .end,
+  .contato-whatsapp a {
+    font-size: 14px;
+    position: static;
+  }
+
+  .flex-phone {
+    margin-left: 0;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .text-inferior {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .text-inferior2 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .text-inferior0 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .privacidade a {
+    padding: 6px;
+    font-size: 12px;
+    top: 30px;
+  }
+
+  .contato a,
+  .seguir a,
+  .ajuda a,
+  .email a,
+  .assinante a,
+  .endFisc0 {
+    font-size: 12px;
+    margin-left: 0 !important;
+  }
+
+  .endFisic i {
+    font-size: 20px;
+  }
+}
+
+/* Estilos para telas menores que 480px */
+@media screen and (max-width: 480px) {
+  .logoEmpresa {
+    width: 60px;
+    height: 60px;
+    margin-left: 0;
+    top: 0;
+  }
+
+  .social-icons a,
+  .privacidade a,
+  .contato a,
+  .seguir a,
+  .ajuda a,
+  .email a,
+  .assinante a,
+  .endFisc0,
+  .endFisic i,
+  .end,
+  .contato-whatsapp a {
+    font-size: 12px;
+  }
+
+  .flex-phone {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+
+  .text-inferior,
+  .text-inferior2,
+  .text-inferior0 {
+    font-size: 10px;
+  }
+
+  .privacidade a {
+    padding: 5px;
+    font-size: 10px;
+    top: 20px;
+  }
+
+  .contato a,
+  .seguir a,
+  .ajuda a,
+  .email a,
+  .assinante a,
+  .endFisc0 {
+    font-size: 10px;
+    margin-left: 0 !important;
+  }
+
+  .endFisic i {
+    font-size: 18px;
+  }
+}
