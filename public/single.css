@@ -373,7 +373,7 @@ section.outras-noticias h2 {
   left: calc(1273px / 3000px * 100%);
   width: 35%; /* Ajuste aqui */
   max-width: 1200px; /* Defina um valor máximo que se adapte ao layout */
-  height: 163vh;
+  height: 175vh;
   background: #ffffff;
   border-radius: 10px;
   opacity: 1;
