@@ -415,6 +415,7 @@ section.outras-noticias h2 {
 }
 
 .box-ultima-single {
+  left: 14%;
   flex: 1; /* Faz com que todos os itens tenham o mesmo tamanho */
   min-width: 220px; /* Define uma largura mínima para cada item */
   background-color: white; /* Fundo branco para cada notícia */
